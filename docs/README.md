@@ -13,6 +13,9 @@ La prmoción se llama --> (""Promo Envio Gratis"") bhttps://vuitg.myvtex.com/"
 
 Para la implementación de componente se tuvieron en cuenta los siguientes procedimientos:
 1. se clono el repositorio vtex-apps/react-app-template
-2. se procedio a configurar el archivo  [manifiest.json](https://github.com/holmespinto/TermometroCompras/blob/master/manifest.json) 
-[interface.json] (https://github.com/holmespinto/TermometroCompras/blob/master/store/interfaces.json)
+2. se procedio a configurar el archivo  [manifiest.json](https://github.com/holmespinto/TermometroCompras/blob/master/manifest.json), 
+[interface.json](https://github.com/holmespinto/TermometroCompras/blob/master/store/interfaces.json),
 [package.json](https://github.com/holmespinto/TermometroCompras/blob/master/react/package.json)
+3. Se procede a crear el componente [TermometroCompras](https://github.com/holmespinto/TermometroCompras/blob/master/react/components/TermometroCompras.tsx)
+4. Se desarrolla el archivo [TermometroCompras.css](https://github.com/holmespinto/TermometroCompras/blob/master/react/components/TermometroCompras.css) que permitira darle formato al termometro.
+
