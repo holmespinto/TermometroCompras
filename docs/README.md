@@ -7,6 +7,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
+![02](https://user-images.githubusercontent.com/70826804/178095791-32b448a1-d588-4389-93ef-e56e2adeb900.png)
 
 "Creación de un termómetro de compras para envío gratis: Se requiere crear dentro del minicart nativo de VTEX un componente presentacional que muestre un termómetro en el que se mostrará de forma visual cuánto le falta al propietario en el valor de costo total del minicart para acceder a un envío gratis.                                  El valor debería buscar una opción de promoción en envío gratis y en encontrar la opción de obtener la data de esta promo.  
 La prmoción se llama --> (""Promo Envio Gratis"") bhttps://vuitg.myvtex.com/"
