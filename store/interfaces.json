@@ -1,0 +1,7 @@
+{
+  "termometro-compras": {
+    "component": "TermometroCompras",
+    "composition": "children",
+    "render": "client"
+  }
+}

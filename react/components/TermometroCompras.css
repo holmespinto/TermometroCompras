@@ -1,0 +1,407 @@
+
+.container {
+  display: flex;
+  position: relative;
+  background: rgb(236, 229, 229);
+  margin: auto;
+  width: 98%;
+  margin: 0.5em 0;
+}
+.circulo {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  top:-22%;
+  left: 89%;
+
+}
+.car {
+  position: relative;
+  background:transparent;
+  width: 40px;
+  height: 40px;
+  top:10%;
+  left: 10%;
+  background-image: url('https://itgloberspartnercl.vtexassets.com/assets/vtex/assets-builder/itgloberspartnercl.store-theme/0.0.1/icons/truck___585dc51d57e4d36c1cf23839c8a5b59a.svg');
+  background-repeat: no-repeat;
+}
+.chart {
+  position: relative;
+  background: rgb(142, 94, 143);
+  border-radius: 5px;
+  font-size: 16px;
+  height: 6%;
+}
+.chart * {
+  box-sizing: border-box;
+}
+.chart:after {
+  content: "";
+  position: absolute;
+  left: 25%;
+  top: 7.5%;
+  transform: translateX(100%);
+  width: 4px;
+  background:transparent;
+  height: 6%;
+  border-radius: 2px;
+}
+.chart .part {
+  display: flex;
+  height: 6%;
+}
+.chart .part > .label {
+  flex: 1;
+  flex-basis: 25%;
+  text-align: right;
+  padding-right: 1em;
+  margin: 0.5em 0;
+  height: 6%;
+  line-height: 2em;
+  color: #FFF;
+  font-weight: 600;
+}
+.chart .part .bar {
+  flex: 3;
+  flex-basis: 75%;
+  position: relative;
+  margin: 0.5em 0;
+}
+.chart .part .bar:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6%;
+  border-radius: 0 2px 2px 0;
+  -webkit-animation: grow 0.5s;
+          animation: grow 0.5s;
+}
+.chart .part .bar.red:after {
+  background: rgb(79, 78, 78);
+  height: 6%;
+}
+.chart .part .bar .label {
+  position: absolute;
+  top: 50%;
+  left: 0.5em;
+  transform: translateX(0%) translateY(-50%);
+  z-index: 1;
+  color: #FFF;
+  font-weight: 600;
+}
+.chart .part.percent_1 .bar:after {
+  width: 1%;
+}
+.chart .part.percent_2 .bar:after {
+  width: 2%;
+}
+.chart .part.percent_3 .bar:after {
+  width: 3%;
+}
+.chart .part.percent_4 .bar:after {
+  width: 4%;
+}
+.chart .part.percent_5 .bar:after {
+  width: 5%;
+}
+.chart .part.percent_6 .bar:after {
+  width: 6%;
+}
+.chart .part.percent_7 .bar:after {
+  width: 7%;
+}
+.chart .part.percent_8 .bar:after {
+  width: 8%;
+}
+.chart .part.percent_9 .bar:after {
+  width: 9%;
+}
+.chart .part.percent_10 .bar:after {
+  width: 10%;
+}
+.chart .part.percent_11 .bar:after {
+  width: 11%;
+}
+.chart .part.percent_12 .bar:after {
+  width: 12%;
+}
+.chart .part.percent_13 .bar:after {
+  width: 13%;
+}
+.chart .part.percent_14 .bar:after {
+  width: 14%;
+}
+.chart .part.percent_15 .bar:after {
+  width: 15%;
+}
+.chart .part.percent_16 .bar:after {
+  width: 16%;
+}
+.chart .part.percent_17 .bar:after {
+  width: 17%;
+}
+.chart .part.percent_18 .bar:after {
+  width: 18%;
+}
+.chart .part.percent_19 .bar:after {
+  width: 19%;
+}
+.chart .part.percent_20 .bar:after {
+  width: 20%;
+}
+.chart .part.percent_21 .bar:after {
+  width: 21%;
+}
+.chart .part.percent_22 .bar:after {
+  width: 22%;
+}
+.chart .part.percent_23 .bar:after {
+  width: 23%;
+}
+.chart .part.percent_24 .bar:after {
+  width: 24%;
+}
+.chart .part.percent_25 .bar:after {
+  width: 25%;
+}
+.chart .part.percent_26 .bar:after {
+  width: 26%;
+}
+.chart .part.percent_27 .bar:after {
+  width: 27%;
+}
+.chart .part.percent_28 .bar:after {
+  width: 28%;
+}
+.chart .part.percent_29 .bar:after {
+  width: 29%;
+}
+.chart .part.percent_30 .bar:after {
+  width: 30%;
+}
+.chart .part.percent_31 .bar:after {
+  width: 31%;
+}
+.chart .part.percent_32 .bar:after {
+  width: 32%;
+}
+.chart .part.percent_33 .bar:after {
+  width: 33%;
+}
+.chart .part.percent_34 .bar:after {
+  width: 34%;
+}
+.chart .part.percent_35 .bar:after {
+  width: 35%;
+}
+.chart .part.percent_36 .bar:after {
+  width: 36%;
+}
+.chart .part.percent_37 .bar:after {
+  width: 37%;
+}
+.chart .part.percent_38 .bar:after {
+  width: 38%;
+}
+.chart .part.percent_39 .bar:after {
+  width: 39%;
+}
+.chart .part.percent_40 .bar:after {
+  width: 40%;
+}
+.chart .part.percent_41 .bar:after {
+  width: 41%;
+}
+.chart .part.percent_42 .bar:after {
+  width: 42%;
+}
+.chart .part.percent_43 .bar:after {
+  width: 43%;
+}
+.chart .part.percent_44 .bar:after {
+  width: 44%;
+}
+.chart .part.percent_45 .bar:after {
+  width: 45%;
+}
+.chart .part.percent_46 .bar:after {
+  width: 46%;
+}
+.chart .part.percent_47 .bar:after {
+  width: 47%;
+}
+.chart .part.percent_48 .bar:after {
+  width: 48%;
+}
+.chart .part.percent_49 .bar:after {
+  width: 49%;
+}
+.chart .part.percent_50 .bar:after {
+  width: 50%;
+}
+.chart .part.percent_51 .bar:after {
+  width: 51%;
+}
+.chart .part.percent_52 .bar:after {
+  width: 52%;
+}
+.chart .part.percent_53 .bar:after {
+  width: 53%;
+}
+.chart .part.percent_54 .bar:after {
+  width: 54%;
+}
+.chart .part.percent_55 .bar:after {
+  width: 55%;
+}
+.chart .part.percent_56 .bar:after {
+  width: 56%;
+}
+.chart .part.percent_57 .bar:after {
+  width: 57%;
+}
+.chart .part.percent_58 .bar:after {
+  width: 58%;
+}
+.chart .part.percent_59 .bar:after {
+  width: 59%;
+}
+.chart .part.percent_60 .bar:after {
+  width: 60%;
+}
+.chart .part.percent_61 .bar:after {
+  width: 61%;
+}
+.chart .part.percent_62 .bar:after {
+  width: 62%;
+}
+.chart .part.percent_63 .bar:after {
+  width: 63%;
+}
+.chart .part.percent_64 .bar:after {
+  width: 64%;
+}
+.chart .part.percent_65 .bar:after {
+  width: 65%;
+}
+.chart .part.percent_66 .bar:after {
+  width: 66%;
+}
+.chart .part.percent_67 .bar:after {
+  width: 67%;
+}
+.chart .part.percent_68 .bar:after {
+  width: 68%;
+}
+.chart .part.percent_69 .bar:after {
+  width: 69%;
+}
+.chart .part.percent_70 .bar:after {
+  width: 70%;
+}
+.chart .part.percent_71 .bar:after {
+  width: 71%;
+}
+.chart .part.percent_72 .bar:after {
+  width: 72%;
+}
+.chart .part.percent_73 .bar:after {
+  width: 73%;
+}
+.chart .part.percent_74 .bar:after {
+  width: 74%;
+}
+.chart .part.percent_75 .bar:after {
+  width: 75%;
+}
+.chart .part.percent_76 .bar:after {
+  width: 76%;
+}
+.chart .part.percent_77 .bar:after {
+  width: 77%;
+}
+.chart .part.percent_78 .bar:after {
+  width: 78%;
+}
+.chart .part.percent_79 .bar:after {
+  width: 79%;
+}
+.chart .part.percent_80 .bar:after {
+  width: 80%;
+}
+.chart .part.percent_81 .bar:after {
+  width: 81%;
+}
+.chart .part.percent_82 .bar:after {
+  width: 82%;
+}
+.chart .part.percent_83 .bar:after {
+  width: 83%;
+}
+.chart .part.percent_84 .bar:after {
+  width: 84%;
+}
+.chart .part.percent_85 .bar:after {
+  width: 85%;
+}
+.chart .part.percent_86 .bar:after {
+  width: 86%;
+}
+.chart .part.percent_87 .bar:after {
+  width: 87%;
+}
+.chart .part.percent_88 .bar:after {
+  width: 88%;
+}
+.chart .part.percent_89 .bar:after {
+  width: 89%;
+}
+.chart .part.percent_90 .bar:after {
+  width: 90%;
+}
+.chart .part.percent_91 .bar:after {
+  width: 91%;
+}
+.chart .part.percent_92 .bar:after {
+  width: 92%;
+}
+.chart .part.percent_93 .bar:after {
+  width: 93%;
+}
+.chart .part.percent_94 .bar:after {
+  width: 94%;
+}
+.chart .part.percent_95 .bar:after {
+  width: 95%;
+}
+.chart .part.percent_96 .bar:after {
+  width: 96%;
+}
+.chart .part.percent_97 .bar:after {
+  width: 97%;
+}
+.chart .part.percent_98 .bar:after {
+  width: 98%;
+}
+.chart .part.percent_99 .bar:after {
+  width: 99%;
+}
+.chart .part.percent_100 .bar:after {
+  width: 100%;
+}
+
+@-webkit-keyframes grow {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes grow {
+  from {
+    width: 0;
+  }
+}
